@@ -1,0 +1,41 @@
+{
+  "name": "helloworld",
+  "displayName": "HelloCordova",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "add-spies": "node ./node_modules/spypkg/dist/index.js --verbose",
+    "remove-spies": "node ./node_modules/spypkg/dist/index.js --remove --verbose"
+  },
+  "spypkg": {
+    "spies": [
+      "npm:*",
+      "tsc",
+      "ionic",
+      "cordova"
+    ],
+    "location": "C:\\Users\\marck\\AppData\\Roaming\\.spies"
+  },
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "clovelced-plugin-audiomanagement": "^1.0.2",
+    "cordova": "^8.1.2",
+    "cordova-android": "7.1.1",
+    "cordova-plugin-whitelist": "1",
+    "spypkg": "^2.0.2",
+    "typescript": "^3.2.2"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "clovelced-plugin-audiomanagement": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}
