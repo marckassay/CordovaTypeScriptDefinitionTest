@@ -25,6 +25,7 @@ var app = {
                 document.getElementById('getAudioModeLab').innerHTML += fail;
             });
         });
+        AudioManagement.VolumeType.MUSIC;
         document.getElementById("setVolBut").addEventListener("click", function () {
             document.getElementById('setVolLab').innerHTML = '';
             AudioManagement.setVolume(AudioManagement.VolumeType.MUSIC, 5, function () {
