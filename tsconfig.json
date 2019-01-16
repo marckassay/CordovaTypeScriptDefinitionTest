@@ -8,10 +8,7 @@
         "inlineSources": true,
         "outDir": "www/js",
         "module": "amd",
-        "target": "es5",
-        "typeRoots": [
-            "typings"
-        ]
+        "target": "es5"
     },
     "include": [
         "src"

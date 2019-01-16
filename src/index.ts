@@ -1,3 +1,5 @@
+import * as AudioManagement from 'clovelced-plugin-audiomanagement';
+
 var app = {
     initialize: function () {
         this.bindEvents();
